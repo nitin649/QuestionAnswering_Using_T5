@@ -7,8 +7,8 @@
 
 # Project Structure
 
-1. I have taken dataset from kaggle.
-2. Data Prprocessing
+1. I have taken dataset ("BioASQ") from kaggle.This dataset contains questions and answers related to biology.
+2. Data Preprocessing
     - Basically we can call this problem as Text Extraction as well because we will give the contexts along with questions and then our model will generate answers.
     - For Input the tokenization will be done by combining questions and contexts.
     - T5Tokenizer is used for tokenization.  
