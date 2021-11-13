@@ -12,7 +12,7 @@
     - Basically we can call this problem as Text Extraction as well because we will give the contexts along with questions and then our model will generate answers.
     - For Input the tokenization will be done by combining questions and contexts.
     - T5Tokenizer is used for tokenization.  
-4. Model Training
+3. Model Training
     - I have used T5 model in training.
     - T5 model : T5 is an encoder-decoder model pre-trained on a multi-task mixture of unsupervised and supervised tasks and for which each task 
       is converted into a text-to-text format
